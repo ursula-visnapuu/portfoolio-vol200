@@ -398,28 +398,6 @@ h6 {
 	text-transform: uppercase;
 }
 
-/* TODO: Need pole kuskil kasutusel
-
-#hero .btn-get-started {
-    font-family: "nasalization";
-    font-weight: 166;
-    font-size: 25px;
-    letter-spacing: 14px;
-    display: inline-block;
-    padding: 9px 9px 9px 9px;
-    border-radius: 3px;
-    margin: 7px;
-    color: #fff;
-    background: #c48d39;
-}
-
-#hero .btn-get-started:hover {
-    transition: 0.5s;
-    background: whitesmoke;
-    color: #555555;
-}
-*/
-
 @media (min-width: 1024px) {
 	#hero {
 		background-attachment: fixed;
@@ -902,6 +880,10 @@ img.card-img-top {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+	background: url("../img/kursused-bg.png");
+}
+
 .portfolio .portfolio-item {
 	margin-bottom: 30px;
 }
@@ -935,8 +917,8 @@ img.card-img-top {
 .portfolio #portfolio-flters li {
 	cursor: pointer;
 	display: inline-block;
-	padding: 8px 18px 12px 18px;
-	font-size: 16px;
+	padding: 8px 8px 8px 8px;
+	font-size: 14px;
 	font-weight: 297;
 	line-height: 1;
 	text-transform: uppercase;
@@ -962,7 +944,7 @@ img.card-img-top {
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
-	background: #fff;
+	background: url("../img/kursused-bg.png");
 }
 
 .portfolio .portfolio-wrap::before {
