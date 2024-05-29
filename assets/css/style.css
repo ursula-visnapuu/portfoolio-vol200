@@ -573,10 +573,8 @@ section {
 }
 
 .services .image {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 400px;
+	padding: 12px;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .list-group-item.active {
