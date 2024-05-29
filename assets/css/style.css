@@ -45,7 +45,7 @@ h6 {
 	right: 15px;
 	bottom: 15px;
 	z-index: 996;
-	background: #c48d39;
+	background: #956324;
 	width: 40px;
 	height: 40px;
 	border-radius: 50px;
@@ -353,7 +353,8 @@ h6 {
 #hero {
 	width: 100%;
 	height: 100vh;
-	background: url("../img/taust-avaleht.png");
+	background-color: #fff;
+	background-size: cover;
 	position: relative;
 }
 
@@ -373,34 +374,42 @@ h6 {
 
 #hero .hero-logo {
 	margin-bottom: 7px;
+	margin: 0;
+	font-weight: 302;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #956324;
+	padding-left: 24px;
+	border-left: 4px solid #956324;
 }
 
 #hero .hero-logo img {
-	margin-top: 60px;
-	height: 150px;
+	margin-top: -2px;
+	height: 139px;
 }
 
 #hero h1 {
 	font-family: "nasalization";
 	font-weight: 139;
-	letter-spacing: 3px;
+	letter-spacing: 9px;
+	text-align: left;
 	margin: 0 0 0 0;
 	font-size: 24px;
-	line-height: 35px;
+	line-height: 20px;
 	color: #956324;
 }
 
-#hero h2 {
+/*#hero h2 {
 	color: #aeaeae;
 	margin-bottom: 30px;
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
-}
+}*/
 
-@media (min-width: 1024px) {
+@media (min-width: 1600x) {
 	#hero {
-		background-attachment: fixed;
+		background-size: contain;
 	}
 }
 
@@ -412,6 +421,12 @@ h6 {
 
 	#hero h2 {
 		line-height: 22px;
+	}
+}
+
+@media (max-width: 768px) {
+	#hero {
+		background-size: cover;
 	}
 }
 
@@ -881,7 +896,9 @@ img.card-img-top {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio {
-	background: url("../img/kursused-bg.png");
+	background-image: linear-gradient(to right, #434343 0%, black 100%);
+	background-size: cover;
+	position: relative;
 }
 
 .portfolio .portfolio-item {
@@ -922,7 +939,7 @@ img.card-img-top {
 	font-weight: 297;
 	line-height: 1;
 	text-transform: uppercase;
-	color: #151515;
+	background-image: linear-gradient(to right, #434343 0%, black 100%);
 	transition: all 0.3s ease-in-out;
 	margin: 0 4px 10px 4px;
 	background: whitesmoke;
@@ -931,7 +948,7 @@ img.card-img-top {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-	background: #c48d39;
+	background: #956324;
 	color: #fff;
 }
 
@@ -944,7 +961,6 @@ img.card-img-top {
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
-	background: url("../img/kursused-bg.png");
 }
 
 .portfolio .portfolio-wrap::before {
@@ -974,6 +990,7 @@ img.card-img-top {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	box-shadow: 0 0 30px rgba(21, 21, 21, 0.08);
 }
 
 .portfolio .portfolio-wrap .portfolio-info::before {
@@ -1344,7 +1361,6 @@ img.card-img-top {
 .team .praktika .praktika-img {
 	position: relative;
 	overflow: hidden;
-	border-radius: 5px;
 }
 
 .team .praktika .social {
@@ -1430,7 +1446,7 @@ img.card-img-top {
 }
 
 .team .container {
-	width: 100%; /* Tagab, et konteiner katab kogu saadaoleva laiuse */
+	width: 100%;
 }
 
 .team .section-title {
@@ -1441,18 +1457,18 @@ img.card-img-top {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	padding: 0; /* Eemaldab paddingu, et sisu täidaks kogu laiuse */
+	padding: 0;
 }
 
 .team .card {
 	width: 100%;
-	margin: 0; /* Eemaldab marginid, et kaard oleks täielikult laiendatud */
+	margin: 0;
 }
 
 .team .card-body {
 	text-align: left;
 	padding: 10px;
-	margin: 0; /* Eemaldab marginid */
+	margin: 0;
 }
 
 /*--------------------------------------------------------------
