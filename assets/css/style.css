@@ -515,7 +515,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about .image {
-	padding: 20px;
+	padding: 15px;
 	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -992,8 +992,8 @@ img.card-img-top {
 	transition: 0.3s;
 	position: relative;
 	overflow: hidden;
-	z-index: 1;   
-    border-radius: 15px;
+	z-index: 1;
+	border-radius: 15px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1007,7 +1007,7 @@ img.card-img-top {
 	transition: all ease-in-out 0.3s;
 	z-index: 2;
 	opacity: 0;
-    border-radius: 15px;
+	border-radius: 15px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -1039,7 +1039,7 @@ img.card-img-top {
 	border-left: 3px solid #fff;
 	transition: all 0.5s ease 0s;
 	z-index: 9994;
-    border-radius: 15px 0 0 0;
+	border-radius: 15px 0 0 0;
 }
 
 .portfolio .portfolio-wrap .portfolio-info::after {
@@ -1054,7 +1054,7 @@ img.card-img-top {
 	border-right: 3px solid #fff;
 	transition: all 0.5s ease 0s;
 	z-index: 9994;
-    border-radius: 0 0 15px 0;
+	border-radius: 0 0 15px 0;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -1981,24 +1981,24 @@ card-body .btn-primary {
 }
 
 .card-button .card::before {
-    content: "";
-    background: rgba(21, 21, 21, 0.6);
-    position: absolute;
-    left: 30px;
-    right: 30px;
-    top: 30px;
-    bottom: 30px;
-    transition: all ease-in-out 0.2s;
-    z-index: 2;
-    opacity: 0;
-    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
-    border-radius: var(--bs-card-border-radius);
+	content: "";
+	background: rgba(21, 21, 21, 0.6);
+	position: absolute;
+	left: 30px;
+	right: 30px;
+	top: 30px;
+	bottom: 30px;
+	transition: all ease-in-out 0.2s;
+	z-index: 2;
+	opacity: 0;
+	border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+	border-radius: var(--bs-card-border-radius);
 }
 
 .card-button .card:hover::before {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 1;
 }
