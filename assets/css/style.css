@@ -353,9 +353,21 @@ h6 {
 #hero {
 	width: 100%;
 	height: 100vh;
-	background-color: #fff;
-	background-size: cover;
 	position: relative;
+	color: inherit;
+}
+
+#hero::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../img/taust1.jpg") center no-repeat;
+	background-size: cover;
+	opacity: 0.2;
+	z-index: -1;
 }
 
 #hero .hero-container {
@@ -386,6 +398,10 @@ h6 {
 #hero .hero-logo img {
 	margin-top: -2px;
 	height: 139px;
+	width: 139px; /* Lisa see, et tagada pildi kuju ümmarguseks */
+	align-items: flex-start;
+	border-radius: 50%; /* Muudab pildi ümmarguseks */
+	object-fit: cover; /* Tagab, et pilt täidab ümmarguse kuju ilusti */
 }
 
 #hero h1 {
@@ -394,8 +410,8 @@ h6 {
 	letter-spacing: 9px;
 	text-align: left;
 	margin: 0 0 0 0;
-	font-size: 24px;
-	line-height: 20px;
+	font-size: 74px;
+	line-height: 62px;
 	color: #956324;
 }
 
@@ -902,7 +918,7 @@ img.card-img-top {
 }
 
 .portfolio .portfolio-item {
-	margin-bottom: 30px;
+	margin-bottom: 21px;
 }
 
 .portfolio-item .portfolio-wrap {
@@ -1342,7 +1358,7 @@ img.card-img-top {
 --------------------------------------------------------------*/
 .team {
 	background: #fff;
-	padding: 60px 0;
+	padding: 93px 0;
 }
 
 .team .praktika {
