@@ -515,7 +515,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about .image {
-	padding: 15px;
+	padding: 12px;
 	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -527,6 +527,7 @@ section {
 .about p {
 	font-family: "Teko-Light.woff", "Open Sans";
 	color: #555555;
+	
 }
 
 .about .content ul {
